@@ -1,0 +1,454 @@
+body{
+    background-color:#F5F5F5 ;
+   
+}
+.nav-bg{
+  
+    background-color: white;
+    
+}
+.logo{
+    size: 50%;
+}
+.container{
+    margin-bottom: 100px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    padding-left: 50px;
+ 
+    overflow-x: hidden;
+   
+}
+.mobile{
+    text-decoration: none;
+   
+}
+.fw-bold a{
+    color:#282828 ;
+}
+
+
+
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+        
+    color: black;
+    padding: px px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    
+    
+    right: 2px;
+    width: 150px;
+  }
+  
+  /* The popup form - hidden by default */
+   .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    border: px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+.our{
+    font-size: 120px;
+   color: #17c6aa;
+}
+.temp{
+    font-size: 120px;
+    margin-top: -30px;
+    color: #282828;
+}
+.btn-outline-success{
+    margin-right: 15px;
+    
+}
+.second-part-width{
+    width: 40%;
+    float: left;
+    margin: 4%;
+    padding: 2%;
+}
+
+.second-part-width img{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    
+}
+.dream-area{
+    margin-top: 0px;
+   
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,aqua,#17c6aa);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #282828;
+    font-weight: bold;
+   
+   }
+.link-button{
+    transition: .4s;
+}
+.link-button:hover a{
+    transform: scale(1.2);
+    color: white;
+}
+.link-button:hover{
+    transform: scale(1.2);
+}
+
+
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.area{
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15px;
+    padding-left: 5px;
+    
+}
+.area-img{
+    margin-left: 50px;
+}
+.area-imgr{
+    margin-right: 50px;
+}
+
+
+.button{
+        text-decoration: none;
+        background-image: linear-gradient(45deg,aqua,#17c6aa);
+      
+        color: #282828;
+        font-weight: bold;
+       
+       }
+.button{
+        transition: .4s;
+    }
+.button:hover{
+        transform: scale(1.2);
+    }
+
+    .carousel-item{
+        padding: 20px 20px;
+    }
+    .price1{
+        
+        margin-left: 231px;
+        color: #282828;
+    }
+    .price2{
+        margin-left: 191px;
+        color: #282828;
+    }
+    .buy-now-button1{
+        background-image: linear-gradient(45deg,aqua,#17c6aa);
+        
+        color: #282828;
+        border: none;
+        border-radius: 5px 5px;
+        cursor: pointer;
+        margin-left: 213px;
+        transition: .4s;
+    }
+    .buy-now-button1:hover{
+        transform: scale(1.2);
+        color: white;
+    }
+    .buy-now-button2{
+       
+        background-image: linear-gradient(45deg,aqua,#17c6aa);
+        color: #282828;
+        border: none;
+        border-radius: 5px 5px;
+        cursor: pointer;
+        margin-left: 179px;
+        transition: .4s;
+    }
+    .buy-now-button2:hover{
+        
+        transform: scale(1.2);
+        color: white;
+    }
+   
+    .text1{
+       
+        color:#282828;
+        margin-left: 110px;
+        
+    }
+    .text2{
+        color:#282828;
+        margin-left: 96px;
+        color: #282828;
+    }
+
+
+.doodlein{
+    text-align: center;
+    font-size: 70px;
+    color:#282828 ;
+}
+
+.bundle{
+    margin-top: -16px;
+    text-align: center;
+    font-size: 65px;
+    color:#17c6aa;
+} ;
+#text p{
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.num{
+    margin-left: 15px;
+    text-align: center;
+    font-size: 100px;
+    color:#282828 ;
+}
+
+.btn1{
+    text-decoration: none;
+     background-image: linear-gradient(45deg,aqua,#17c6aa); 
+    padding: 5px 5px;
+    border-radius: 25px;
+    color: #282828;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 15%;
+   
+   }
+
+
+   .btn2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,aqua,#17c6aa); */
+    padding: 5px 5px;
+    border-radius: 25px;
+    color: #282828;
+    font-weight: bold;
+   
+    
+   }
+
+   .card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(219, 216, 216);
+    
+}
+
+
+
+.footer-area{
+    
+    padding: 100px 0px;
+  
+    background: #17c6aa;
+    background: -moz-linear-gradient(top,  #17c6aa 0%, #2cafe3 100%);
+    background: -webkit-linear-gradient(top,  #17c6aa 0%,#2cafe3 100%);
+    background: linear-gradient(to bottom,  #17c6aa 0%,#2cafe3 100%);
+   
+    color: #fff;
+    position: relative;
+}
+.main{
+    width: 1200px;
+    margin:0 auto;
+   
+}
+ 
+ .footer{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     flex-direction: row;
+
+ }
+ .single-footer:first-child{
+     width: 300px;
+    
+ }
+ .single-footer{
+     width: 100px;
+     
+ }
+ .single-footer h4{
+     text-transform: capitalize;
+     font-size:22px ;
+     margin-bottom: 20px;
+ }
+
+
+.footer-social a{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-social{
+    margin-top: 20px;
+}
+.single-footer ul{
+    list-style: none;
+
+}
+.single-footer ul li{
+    margin-bottom: 10px;
+    position: relative;
+    padding-left:20px ;
+}
+
+.single-footer ul li a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration:none;
+}
+
+.single-footer ul li a i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+
+.copy{
+  
+    text-align: center;
+    text-transform: capitalize;
+    background-color:#F5F5F5 ;
+    
+}
+
+
+.footer-wave-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    overflow: hidden;
+    
+}
+.footer-wave{
+    background-image: ;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+
+.main-menu{
+    margin-left: 30px;
+
+}
+
+.quick-link{
+    margin-left: 30px;
+}
+.contact-us{
+    margin-left: 30px;
+}
+
+.cart {
+    font-weight: bold;
+    font-size: 20px;
+    color: #282828;
+}
+.card-btn{
+   
+    
+    margin-top: 15px;
+    background-image: linear-gradient(45deg,aqua,#17c6aa);
+        
+    color: #282828;
+    border: none;
+    border-radius: 5px 5px;
+    cursor: pointer;
+ 
+    transition: .4s;
+}
+.card-btn:hover{
+        
+    transform: scale(1.2);
+    color: white;
+}
+
+
+/* log in and log out button */
+
